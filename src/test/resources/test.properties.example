@@ -1,0 +1,11 @@
+ca.host=http://localhost:8081
+ca.username=admin
+ca.password=
+
+# Override default service url
+# ca.service-urls.MetricDataService=/introscope-web-services/services/MetricsDataService
+
+test.agentRegex=.*
+test.metricPrefix=Test\\|.*Average Response Time \\(ms\\)
+
+logging.level.org.apache.axis=INFO
